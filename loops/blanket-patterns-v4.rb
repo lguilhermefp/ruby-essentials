@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 colors = "|/|/|=|/|"
 lines = 20
 halfway = (lines / 2).floor

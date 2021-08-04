@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 puts colors = "RRGGBBYYKK"
 lines = 20
 

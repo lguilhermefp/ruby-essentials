@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 i = 5
 
 while i > 0

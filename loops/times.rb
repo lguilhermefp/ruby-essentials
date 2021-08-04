@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 i = 5
 
 i.times do

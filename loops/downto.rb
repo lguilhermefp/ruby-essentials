@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 5.downto(1) do |i|
     puts "Countdown #{i}"
 end
