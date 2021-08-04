@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 x = 15
 
 if x <= 10

@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 cart = []
 
 unless cart.empty?

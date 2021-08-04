@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 count = 2
 
 case

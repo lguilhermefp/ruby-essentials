@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 peopleCount = 1
 puts peopleCount == 1 ? "#{peopleCount} person" :  "#{peopleCount} people"
 
