@@ -12,3 +12,11 @@ puts person.first_name_initial_and_last_name
 puts '--------'
 pig = Animal.new({noise: 'oink'})
 puts pig.noise
+
+puts '--------'
+Animal.types.each do |type|
+	puts type
+end
+
+george = Animal.create_a_pig
+puts george.noise
