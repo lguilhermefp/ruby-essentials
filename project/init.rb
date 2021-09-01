@@ -7,5 +7,5 @@ require_relative 'classes/animal'
 # puts person.say_hello
 
 pig = Animal.new
-pig.set_noise
-puts pig.make_noise
+pig.noise = 'oink'
+puts pig.noise
