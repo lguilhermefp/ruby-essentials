@@ -1,10 +1,5 @@
 class Animal
 
-	def noise
-		@noise
-	end
+	attr_accessor :noise
 
-	def noise=(value)
-		@noise = value
-	end
 end
