@@ -1,22 +1,22 @@
 #!usr/bin/env ruby
-require_relative 'DiceSet'
 
-puts 'this is dice roller'
-myDiceSet = DiceSet.new
-myDiceSet.display
+require_relative 'dice'
+require_relative 'dice_set'
+
+puts 'this is the dice roller\n'
+my_dice_set = DiceSet.new
+my_dice_set.display
 
 loop do
 	puts 'type r to roll and q to quit'
 	option = gets.chomp
 	case option
 	when 'r'
-		myDiceSet.roll
-		myDiceSet.display
+		my_dice_set.roll
+		puts my_dice_set.display
 	when 'q'
 		exit
 	else
 		puts 'option not recognized'
 	end
 end
-
-
