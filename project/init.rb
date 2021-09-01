@@ -10,6 +10,5 @@ puts person.full_name
 puts person.first_name_initial_and_last_name
 
 puts '--------'
-pig = Animal.new
-pig.noise = 'oink'
+pig = Animal.new({noise: 'oink'})
 puts pig.noise
