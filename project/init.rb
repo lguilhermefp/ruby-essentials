@@ -14,9 +14,18 @@ pig = Animal.new({noise: 'oink'})
 puts pig.noise
 
 puts '--------'
-Animal.types.each do |type|
-	puts type
+Animal.species.each do |specie|
+	puts specie
 end
 
 george = Animal.create_a_pig
 puts george.noise
+
+puts '--------'
+puts Animal.total_animals
+
+puts '--------'
+Animal.species = ['cat', 'mouse', 'moose']
+Animal.species.each do |specie|
+	puts specie
+end
