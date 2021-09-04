@@ -23,12 +23,15 @@ end
 
 george = Pig.new
 puts george.noise
+george.eat
 
 georgina = Cow.new
 puts georgina.noise
+georgina.jump
 
 dona_pata = Duck.new
 puts dona_pata.noise
+dona_pata.fly
 
 puts '--------'
 puts Animal.total_animals

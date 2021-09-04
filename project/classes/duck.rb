@@ -7,4 +7,7 @@ class Duck < Animal
 		@color = 'yellow'
 	end
 
+	def fly
+		puts 'flying free as a flying duck'
+	end
 end

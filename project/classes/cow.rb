@@ -7,4 +7,8 @@ class Cow < Animal
 		@color = 'white'
 	end
 
+	def jump
+		puts 'over the muuun we go'
+	end
+
 end

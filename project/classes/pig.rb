@@ -7,4 +7,8 @@ class Pig < Animal
 		@color = 'pink'
 	end
 
+	def eat
+		puts 'nom nom nom'
+	end
+
 end
